@@ -1,0 +1,16 @@
+programa {
+  inclua biblioteca Util --> u
+  funcao inicio() {
+    anosDepois()
+  }
+  funcao anosDepois(){
+    inteiro num
+
+    num = u.sorteia(1,6)
+
+    escreva("Depois de 25 anos, Jumanji foi achado novamente, e os dados foram sorteados novamente","\n")
+    escreva(num," foram as casas que a peça andou","\n")
+    escreva("Mas diferente da primeira vez eles não foram à Jumanji, Jumanji foi até eles, sons de macaco e coisas quebrando foram ouvidos, eles foram até o som e viram macacos por toda a cozinha.","\n")
+    //colocar escolha lutar com os macacos, ou voltar ao jogo
+  }
+}
