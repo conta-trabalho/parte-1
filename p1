@@ -1,0 +1,24 @@
+programa {
+  inclua biblioteca Util --> u
+  funcao inicio() {
+    comecoJogo()
+    jogarDado()
+  }
+
+  funcao comecoJogo(){
+
+  escreva("Em uma cidade moderna, um grupo de amigos encontra um antigo jogo de tabuleiro chamado Jumanji em uma loja de antiguidades. Ao jogá-lo, eles são sugados para uma selva vibrante, mas cheia de perigos. Agora, eles devem superar desafios, enfrentar criaturas místicas e desvendar os mistérios do jogo para conseguir voltar para casa.","\n \n ")
+  escreva("Alex- Jumanji, um jogo pra quem quer demais, um caminho pra deixar seu mundo pra trás!","\n", "Jogue os dados, números iguais joga mais uma vez. O primeiro a chegar no final ganha!","\n")
+  escreva("Alex- Quer jogar?","\n")
+  escreva("Sarah- Parei de jogar jogos de tabuleiro a 5 anos!","\n")
+  escreva("Como nem tudo sai como planejado, Sarah joga os dados e o tabuleiro se mexe...","\n")
+  }
+  funcao jogarDado (){
+    inteiro num
+
+    num = u.sorteia(1,6)
+    escreva( "A peça se mecheu ",num," casas, e logo eles foram sugados para dentro de Jumanji")
+    
+  }
+}
+}
