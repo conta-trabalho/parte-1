@@ -1,0 +1,69 @@
+programa {
+  funcao inicio() {
+
+   inteiro jogador_saude 
+   inteiro inimigo_saude
+   inteiro jogador_ataque 
+   inteiro inimigo_ataque
+   inteiro opcao
+
+
+    
+    jogador_saude = 100
+    inimigo_saude = 100
+    jogador_ataque = 20
+    inimigo_ataque = 15
+
+    escreva("Início do combate!\n")
+
+    
+        enquanto (jogador_saude > 0) (inimigo_saude > 0) faca
+
+        escreva("\nSaúde do Jogador: ", jogador_saude)
+        escreva("\nSaúde do Inimigo: ", inimigo_saude)
+        escreva("\nEscolha uma ação:")
+        escreva("\n1. Atacar")
+        escreva("\n2. Defender")
+        escreva("\n3. Usar item")
+        escreva("\nDigite a opção: ")
+        leia(opcao)
+        
+                    
+        se (opcao = 1) { entao
+          
+            inimigo_saude = inimigo_saude - jogador_ataque
+            escreva("O jogador ataca! Inimigo perde ", jogador_ataque, " de vida.")}
+
+        senao se  (opcao = 2){ entao
+            
+            escreva("O jogador se defende e reduz o dano do próximo ataque.")
+            inimigo_ataque = inimigo_ataque - 5} 
+
+        senao se  (opcao = 3){ entao
+            
+            escreva("O jogador usa um item e recupera 10 de vida.")
+            jogador_saude = jogador_saude + 10}
+
+
+            se (jogador_saude > 100) { entao
+                jogador_saude = 100 
+            }
+        senao {
+            escreva("Opção inválida! Tente novamente.")
+             }
+
+        
+        jogador_saude = jogador_saude - inimigo_ataque
+        escreva("O inimigo ataca! Jogador perde ", inimigo_ataque, " de vida.")
+
+        
+        se (inimigo_saude <= 0) { entao
+            escreva("\nO inimigo foi derrotado! Você venceu!")
+            pare }
+        fimse
+
+        se (jogador_saude <= 0) { entao
+            escreva("\nVocê foi derrotado! Tente novamente.")
+            pare }
+  }
+}
