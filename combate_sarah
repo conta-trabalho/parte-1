@@ -1,0 +1,25 @@
+	
+		escreva ("Sarah estava indo visitar Lia e Tom, quando viu um leão na porta da casa deles..","\n")
+		escreva ("Ela tenta recuar mas acaba chamando a atenção do leão que parece muito raivoso... ")
+		escreva ("Oque você quer fazer?","\n","1- Sair correndo e não olhar pra trás", "\n","2-Tentar lutar com o leão")
+		//COLOCAR O LIMPA DPS DAS OPÇOES!
+		//se opçao 1 entao diga q o leao foi correndo atras e voce teve q lutar do msm jeito só que com outros recursos (ex. uma lata de lixo de ferro ou pedaço de asfalto ou pedregulho
+		//se opçao 2 entao vc pega uma enxada que tava jogado na grama e batalha com o leao
+		//opcao 2 é esse escreva debaixo
+		escreva("Sarah pega a exada e finca-a na cabeça do leão várias vezes até ele não ser mais uma ameaça.","\n")
+		escreva("Após esse momento desafiador ela entra na casa do Tom e da Lia para ver como eles estão.")
+
+		//COLOCAR OUTRO LIMPA AQ
+      
+		//batalha de dança do tigre agr
+		escreva("Ela chama pelo nome dos dois mas ninguém responde","\n")
+		escreva("Sarah então entra na sala e se depara com um tigre de óculos escuro sentado no sofá","\n")
+		escreva("Ele se levanta e desafia ela para uma batalha de dança","\n")
+		escreva("Ela aceita mas hesita um pouco, em seguida entram 2 zebras pela janela com caixas de som embutidas e começam a tocar uma música...","\n")
+		//tentar colocar a msc "vou desafiar vocẽ - mc sapão"
+		//dps q eles começarem a dançar essa msc colocar "bonde do tigrão"
+		escreva("Depois dessa cena Sarah para e pensa pra si mesma","\n")
+		escreva("Meu Deus fugiu o zoológico inteiro foi")
+
+		//colocar o limpa e talvez imagem do tigre
+		
