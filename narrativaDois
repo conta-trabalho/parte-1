@@ -1,0 +1,273 @@
+programa
+{  inclua biblioteca Util --> u
+	 funcao inicio() {
+
+
+
+
+	 	
+	 	   
+escreva("                                                                                                              \n")
+escreva("                                                                                                              \n")
+escreva("             jjjj                                                                               jjjj   iiii  \n")
+escreva("            j::::j                                                                             j::::j i::::i \n")
+escreva("             jjjj                                                                               jjjj   iiii  \n")
+escreva("                                                                                                              \n")
+escreva("           jjjjjjjuuuuuu    uuuuuu     mmmmmmm    mmmmmmm     aaaaaaaaaaaaa  nnnn  nnnnnnnn   jjjjjjjiiiiiii \n")
+escreva("           j:::::ju::::u    u::::u   mm:::::::m  m:::::::mm   a::::::::::::a n:::nn::::::::nn j:::::ji:::::i \n")
+escreva("            j::::ju::::u    u::::u  m::::::::::mm::::::::::m  aaaaaaaaa:::::an::::::::::::::nn j::::j i::::i \n")
+escreva("            j::::ju::::u    u::::u  m::::::::::::::::::::::m           a::::ann:::::::::::::::nj::::j i::::i \n")
+escreva("            j::::ju::::u    u::::u  m:::::mmm::::::mmm:::::m    aaaaaaa:::::a  n:::::nnnn:::::nj::::j i::::i \n")
+escreva("            j::::ju::::u    u::::u  m::::m   m::::m   m::::m  aa::::::::::::a  n::::n    n::::nj::::j i::::i \n")
+escreva("            j::::ju::::u    u::::u  m::::m   m::::m   m::::m a::::aaaa::::::a  n::::n    n::::nj::::j i::::i \n")
+escreva("            j::::ju:::::uuuu:::::u  m::::m   m::::m   m::::ma::::a    a:::::a  n::::n    n::::nj::::j i::::i \n")
+escreva("            j::::ju:::::::::::::::uum::::m   m::::m   m::::ma::::a    a:::::a  n::::n    n::::nj::::ji::::::i\n")
+escreva("            j::::j u:::::::::::::::um::::m   m::::m   m::::ma:::::aaaa::::::a  n::::n    n::::nj::::ji::::::i\n")
+escreva("            j::::j  uu::::::::uu:::um::::m   m::::m   m::::m a::::::::::aa:::a n::::n    n::::nj::::ji::::::i\n")
+escreva("            j::::j    uuuuuuuu  uuuummmmmm   mmmmmm   mmmmmm  aaaaaaaaaa  aaaa nnnnnn    nnnnnnj::::jiiiiiiii\n")
+escreva("            j::::j                                                                             j::::j        \n")
+escreva("  jjjj      j::::j                                                                   jjjj      j::::j        \n")
+escreva(" j::::jj   j:::::j                                                                  j::::jj   j:::::j        \n")
+escreva(" j::::::jjj::::::j                                                                  j::::::jjj::::::j        \n")
+escreva("  jj::::::::::::j                                                                    jj::::::::::::j         \n")
+escreva("    jjj::::::jjj                                                                       jjj::::::jjj          \n")
+escreva("       jjjjjj                                                                             jjjjjj             \n \n")
+
+
+    
+
+
+    espere(4000) 
+    comecoJogo()
+    espere(4000)
+
+    jogarDado()
+    espere(3000)
+
+    escolhaPersonagem()
+    espere(2500)
+
+   }
+    
+   funcao numero(){
+escreva("  ####    ######            #####    ##  ##    ####     #####           ######   #######  ######     ####   #######    #####\n")
+escreva(" ## ###   ###               #####    ### ##   ######   ###  #            ### ##   ###      ######   ######    ###     ###  #\n")
+escreva("    ###   #####             ## ##    ######   ##  ##   #####             ### ##   #####    ##  ##   ##  ##    ###     #####\n")
+escreva("  ####       ###            #####    ######   ##  ##    #####            ### ##   ###      #####    ##  ##    ###      #####\n")
+escreva(" ###      ## ###            ## ##    ## ###   ######   #  ###            ### ##   ###      ###      ######    ###     #  ###\n")
+escreva(" ######    ####            ### ###   ##  ##    ####    #####            ######   #######  #####      ####   #######   #####\n \n")
+
+
+  espere(4000)
+   }
+
+
+    
+    
+
+    
+
+
+  funcao comecoJogo(){
+
+  escreva("Em uma cidade moderna, um grupo de amigos encontra um antigo jogo de tabuleiro chamado Jumanji em uma loja de antiguidades.","\n","Ao jogá-lo, eles são sugados para uma selva vibrante, mas cheia de perigos.","\n","Agora, eles devem superar desafios, enfrentar criaturas místicas e desvendar os mistérios do jogo para conseguir voltar para casa.","\n \n")
+
+
+
+escreva("          ,..........   .........,         \n")
+escreva("     ,..,'          '.'          ',..,     \n")
+escreva("    ,' ,'            :            ', ',    \n")
+escreva("   ,' ,'   JUMANJI   :   O JOGO    ', ',   \n")
+escreva("  ,' ,'              :              ', ',  \n")
+escreva(" ,' ,'............., : ,.............', ', \n")
+escreva(",'  '............   '.'   ............'  ',\n")
+escreva(" '''''''''''''''''';''';'''''''''''''''''' \n")
+escreva("                    '''                      \n")
+
+
+  espere(3500)
+
+
+  escreva("Alan- Jumanji, um jogo pra quem quer demais, um caminho pra deixar seu mundo pra trás!","\n", "Jogue os dados, números iguais joga mais uma vez. O primeiro a chegar no final ganha!","\n")
+  escreva("Alan- Quer jogar?","\n")
+  escreva("Sarah- Parei de jogar jogos de tabuleiro a 5 anos!","\n \n")
+  escreva("Como nem tudo sai como planejado, Sarah joga os dados e o tabuleiro se mexe...","\n")
+  }
+
+
+  
+  funcao jogarDado (){
+    inteiro num
+
+    num = u.sorteia(1,6)
+    escreva( "A peça se mecheu ",num," casas, e logo eles foram sugados para dentro de Jumanji","\n \n")
+    
+  }
+
+
+  
+  funcao escolhaPersonagem(){
+
+      inteiro personagem
+      inteiro escolhido
+      
+	 escreva ("Para jogar escolha um personagem! 1-Alan , 2-Lia , 3-Tom ou 4-Sarah ","\n")
+	 leia(escolhido)
+
+      escolha(escolhido)
+       {
+         caso 1:
+          escreva ("Alan, o líder do grupo, corajoso e estratégico","\n \n")
+          espere(4500)
+          numero()
+          anosDepois()
+          espere(4000)
+          lutaAlan()
+          Alan()
+          espere(5000)          
+          pare
+         caso 2:
+           escreva ("Lia, uma aventureira nata, com habilidades em sobrevivência","\n \n")
+           numero()
+           anosDepois()
+           escreva("Será uma difícil missão, os macacos atrasam a expedição!","\n")
+           escreva("Mas diferente da primeira vez eles não foram à Jumanji, Jumanji foi até eles, sons de macaco e coisas quebrando foram ouvidos, eles foram até o som e viram macacos por toda a cozinha.","\n")
+           //colocar escolha lutar com os macacos, ou voltar ao jogo
+           espere(4000)
+           narrativaum()
+           espere(4500)
+         pare
+          caso 3:
+           escreva ("Tom, o cômico do grupo, sempre arrumando confusão","\n \n")
+           numero()
+           anosDepois()
+           escreva("Será uma difícil missão, os macacos atrasam a expedição!","\n")
+           escreva("Mas diferente da primeira vez eles não foram à Jumanji, Jumanji foi até eles, sons de macaco e coisas quebrando foram ouvidos, eles foram até o som e viram macacos por toda a cozinha.","\n")
+           //colocar escolha lutar com os macacos, ou voltar ao jogo
+           espere(4000)
+           narrativaum()
+           espere(4500)
+          pare
+           caso 4:
+             escreva ("Sarah, inteligente e analítica, especialista em resolver enigmas.","\n \n")
+             espere(4500)
+             numero()
+             anosDepois()
+             espere(4000)
+            pare
+         caso contrario:
+           escreva("Esse personagem não existe!","\n \n")
+       }
+   
+           
+           }
+
+
+           
+       
+  funcao anosDepois(){
+    inteiro num
+
+    num = u.sorteia(1,6)
+
+    escreva("Depois de 25 anos, Jumanji foi achado novamente, e os dados foram sorteados novamente","\n")
+    escreva(num," foram as casas que a peça andou","\n")
+  }
+
+  funcao narrativaum(){
+
+  inteiro acao
+  inteiro alternativa
+ 
+ escreva ("Os macacos estão quebrando toda a cozinha o que você vai fazer?","\n")
+ escreva("1- Tentar lutar com os macacos ou","\n","2- Fechar a porta, ir para um lugar seguro e seguir o jogo","\n","OPÇÃO 1 OU 2","\n")
+ leia(alternativa)
+
+  escolha(alternativa)
+   {
+     caso 1:
+      escreva ("Infelizmente você não conseguiu derrotar os macacos, eles eram muito raivosos e você não conseguiu derrotá-los")
+      pare
+     caso 2:
+       escreva ("Ótima escolha, você segue a camiho de o jogo continua, role novamente os dados para saber o que vai aconter em seguida")
+       pare
+       caso contrario:
+       escreva("Esse opção não existe")
+   }
+
+       
+       }
+
+  funcao espere(inteiro tempo){
+ 
+   u.aguarde(tempo)
+   limpa()
+  	
+  }
+
+  funcao lutaAlan (){
+  	inteiro acao
+  
+  	
+  	escreva("Alan, após 25 anos está de volta e apareceu na cozinha da sua casa","\n","e com ele voltou um caçador da terra de Jumanji...","\n")
+  	escreva("O caçador começa a apontar sua lança pra você, e corre em sua direção","\n")
+  	escreva("Você tem dua opções","\n","1-use uma faca da cozinha","\n","2-corra dele","\n")
+  	leia(acao)
+
+      escolha(acao)
+       {
+     caso 1:
+      escreva ("Você conseguiu jogar uma faca no ombro do caçador, e ele solta a arma, mas fica com mais raiva e vai pra cima de você, vocês logo começam uma luta corporal","\n")
+      pare
+     caso 2:
+       escreva ("Péssima escolha, o caçador estava com uma arma na mão, e você não foi tão ágil assim... ","\n")
+       pare
+       caso contrario:
+       escreva("Esse opção não existe")	
+       }
+  }
+
+   funcao Alan(){
+     inteiro casoDois
+   		
+      escreva ("Em meio a socos você percebe que o caçador está começando a se cansar","\n")
+      escreva ("No meio do caos você vê um uma frigideira em cima do fogão,","\n"," e uma jarra de vidro ao seu lado","\n")
+      escreva ("3-Você puxa a frigideira e acerta na cabeça do caçador deixando ele tonto, logo o acerta de novo desmaiando ele","\n")
+      escreva ("Depois de achar uma corda na garagem você volta a cozinha e amarra o caçador para que quando ele acorde você tenha mais tempo de pensar em algo","\n")
+      escreva ("4-Você pega a jarra e a quebra no caçador isso o cortou, mais não resolveu e deixou ele com mais raiva ainda","\n","Ele vê a frigideira pega ela e bate em você","\n")
+      escreva ("Tudo começa a ficar preto, e você sente outra pancada na cabeça e logo apaga","\n")
+      leia(casoDois)
+
+     escolha(casoDois)
+     {
+     caso 3:
+     	escreva("Você conseguiu passar dessa missão, agora tem outra aventura te esperando","\n")
+     	pare
+     caso 4:
+          escreva("O caçador conseguiu te derrotar, mas não se preucupe, você ainda tem uma vida","\n","Agora uma aventura em grupo te espera")
+          pare
+     caso contrario:
+          escreva("Essa opção não existe")     
+     }
+   }
+     funcao lutaFinal(){
+
+   inteiro num
+
+    escreva("Lian sai da cozinha atras das crianças, a procura delas, vê Sarah na sala, suando e machucada","\n")
+    escreva("Lian- O que aconteceu com você?","\n")
+    escreva("Sarah- Você não vai querer saber agora...","\n","Sarah-Onde estão as crianças?")
+    escreva("Lian-Tô indo procurar elas")
+    escreva("Os dois subiram atrás das crianças e as acham no sotão","\n")
+    escreva("Tom-Como vamos acabar com isso? Só quero que acabe logo","\n")
+    escreva("Sarah-Temos que jogar os dados","\n")
+    escreva("Logo a confusão começou, Tom reclamava de um lado, Lia dizia que não ia fazer isso de jeito nenhum, e Sarah tentava acalma-los","\n")
+    escreva("Lian-Chega, vamos rolar os dados, é a única forma de tudo voltar ao normal")
+    escreva("Eles voltaram onde o tabuleiro estava e rolaram os dados","\n")
+
+     num = u.sorteia(1,6)
+
+
+    escreva("O número foi ",num,"e logo eles escutam o barulho ")
+     }     
+}
