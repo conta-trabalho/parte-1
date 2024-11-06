@@ -99,6 +99,7 @@ escreva("                    '''                      \n")
           casoDois()
           espere(5000)     
           lutaFinal()
+          espere(8000)
           continuacao()     
           pare
          caso 2:
@@ -112,6 +113,7 @@ escreva("                    '''                      \n")
            narrativaum()
            espere(4500)
            lutaFinal()
+           espere(8000)
            continuacao()
          pare
           caso 3:
@@ -125,6 +127,7 @@ escreva("                    '''                      \n")
            narrativaum()
            espere(4500)
            lutaFinal()
+           espere(8000)
            continuacao()
           pare
            caso 4:
@@ -132,10 +135,11 @@ escreva("                    '''                      \n")
              espere(4500)
              numero()
              anosDepois()
-             espere(4000)
-             LutaSarah()
              espere(4500)
+             LutaSarah()
+             espere(6500)
              lutaFinal()
+             espere(8000)
              continuacao()
             pare
          caso contrario:
@@ -211,7 +215,7 @@ escreva("                    '''                      \n")
 		//tentar colocar a msc "vou desafiar vocẽ - mc sapão"
 		//dps q eles começarem a dançar essa msc colocar "bonde do tigrão"
 		escreva("Depois dessa cena Sarah para e pensa pra si mesma","\n")
-		escreva("Meu Deus fugiu o zoológico inteiro foi")
+		escreva("'Meu Deus fugiu o zoológico inteiro foi'")
   }
    //1 parte luta de Alan
   funcao lutaAlan (){
@@ -277,7 +281,9 @@ escreva("                    '''                      \n")
     escreva("Lian-Chega, vamos rolar os dados, é a única forma de tudo voltar ao normal")
     escreva("Eles voltaram onde o tabuleiro estava e rolaram os dados","\n")
      num = u.sorteia(1,6)
-    escreva("O número foi ",num,"e logo eles escutam o barulho ")
+
+     
+     escreva("O número foi ",num,"e logo eles escutam o barulho ")
      escreva("Os macacos no qual Tom e Lia haviam fugido retornam, mas não sozinhos, com eles parece que vieram a selva toda","\n")
      escreva("Lia- Ai meu Deus, o que vamos fazer? Não temos a mínima chance contra eles","\n")
      escreva("O tabuleiro que estava na frente deles logo se meche e uma frase aparece","\n")
@@ -327,5 +333,5 @@ escreva("                    '''                      \n")
       pare
       }
     
-     }  
+     }   
 }
